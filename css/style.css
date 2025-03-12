@@ -27,8 +27,21 @@ nav>a{
 }
 
 .banner-img{
-    border: 1px solid;
-    height: 300px;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-1{
+    background-image: url(../assets/banner1.jpg);
+}
+
+.banner-2{
+    background-image: url(../assets/banner2.jpg);
+}
+
+.banner-3{
+    background-image: url(../assets/banner3.jpg);
 }
 
 .our-profile-content{
@@ -54,4 +67,11 @@ nav>a{
 
 footer{
     text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width:480px){
+    .main-header{
+        flex-direction: column;
+    }
 }

@@ -34,11 +34,14 @@
          <section id="home">
             <header>
                 <h1>Hi User, welcome to my website</h1>
-                <p>Ini adalah website latihan pertama</p>
+                <p>Here you can see my profile, achievement, and message me</p>
             </header>
 
             <!-- Banner autoslide -->
-             <div class="banner-img"></div>
+             <div class="banner-img banner-1"></div>
+             <div class="banner-img banner-2"></div>
+             <div class="banner-img banner-3"></div>
+             <button onclick="nextBanner()">Next</button>
          </section>
 
          <hr />
@@ -59,7 +62,7 @@
             <header>
                 <h1>Achievement</h1>
             </header>
-            <!-- Our profile content -->
+            <!-- Achievement content -->
             <div class="achievement-content">
                 <p>isi konten</p>
             </div>
@@ -70,9 +73,15 @@
             <header>
                 <h1>Message Us</h1>
             </header>
-            <!-- Our profile content -->
+            <!-- Message us content -->
             <div class="message-us-content">
-                <p>isi konten</p>
+                <!-- form -->
+                 <form action="">
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input"name="name"placeholder="Your Name">
+
+                    <button type="button"onclick="validateForm()">Submit</button>
+                 </form>
             </div>
          </section>
     </main>
@@ -81,5 +90,8 @@
     <footer>
         <p>&copy;2025 Fasty Nirawati</p>
     </footer>
+
+    <!-- Javascript -->
+    <script src="js\script.js"></script>
 </body>
 </html>
