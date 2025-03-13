@@ -48,21 +48,24 @@ nav>a{
     border: 1px solid;
     height: 300px;
     align-content: center;
-    text-align: center;
 }
 
 .achievement-content{
     border: 1px solid;
     height: 300px;
     align-content: center;
-    text-align: center;
 }
 
 .message-us-content{
     border: 1px solid;
     height: 300px;
-    align-content: center;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.message-us-content>div{
+    border:1px solid;
+    width: 300px;
 }
 
 footer{
